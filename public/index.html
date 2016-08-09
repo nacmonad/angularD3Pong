@@ -5,7 +5,7 @@
 	<title>Angular + D3 Pong</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
-<body ng-app="angularPong" ng-controller="mainCtrl"  ng-keydown="keyDown($event)" ng-keyup="keyUp($event)">
+<body ng-app="angularPong" ng-keydown="keyDown($event)" ng-keyup="keyUp($event)">
 	<div class="container">
 
 		<h4>angular + d3</h4>
@@ -19,7 +19,7 @@
 			</div>
 			<hr>	
 			<div class="row">
-				<div game-container class="col-xs-12 col-md-6"></div>
+				<div game-container class="col-xs-12"></div>
 			</div>
 			<div class="row" >
 				<h4>Player 1 : {{myPaddleOne.score }} </h4>
