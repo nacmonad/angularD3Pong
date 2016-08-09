@@ -1,0 +1,31 @@
+{
+  "name": "angular-d3-pong",
+  "version": "1.0.0",
+  "description": "building a d3 rendering image, by which angular does the data handling and controlling of digest cycles -- for setting frame counts ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nacmonad/angularD3Pong.git"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "d3",
+    "angular",
+    "experiment",
+    "game",
+    "engine"
+  ],
+  "author": "nacmonad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nacmonad/angularD3Pong/issues"
+  },
+  "homepage": "https://github.com/nacmonad/angularD3Pong#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
